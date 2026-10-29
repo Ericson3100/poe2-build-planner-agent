@@ -1,0 +1,78 @@
+{
+ "metrics": {
+  "build": "poe2.2",
+  "level": 81,
+  "guide": "coc-comet-animeprincess",
+  "variant": "basic",
+  "mode": "baseline",
+  "model": "-",
+  "build_dps_pct": -2.6,
+  "ehp_pct": 2.2,
+  "es_pct": 0.0,
+  "problems_before": [
+   "Str 74 < requisito 75",
+   "Spirit sobre-reservado (-26)"
+  ],
+  "problems_fixed": [
+   "Spirit sobre-reservado (-26)",
+   "Str 74 < requisito 75"
+  ],
+  "problems_left": [],
+  "valid": true,
+  "solved": true,
+  "steps": 2,
+  "spent_exalted": 1.0,
+  "spent_gold": 11135,
+  "budget_exalted": 2897.2,
+  "seconds": 219,
+  "llm_requests": 0,
+  "input_tokens": 0,
+  "output_tokens": 0,
+  "cost_usd": 0.0,
+  "trade_searches": 17,
+  "engine_evals": 317,
+  "report": "2026-10-15_poe2.2_coc-comet-animeprincess_sin-llm-baseline.md"
+ },
+ "plan": [
+  {
+   "kind": "gem",
+   "description": "Apagar Mana Remnants (libera 30 de spirit)",
+   "cost_exalted": 0,
+   "cost_gold": 0,
+   "rationale": "Es la skill que menos pierde al apagarla (DPS +0.0%).",
+   "guide_quote": "",
+   "slot": null,
+   "listing_id": null,
+   "add_nodes": [],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": null,
+   "seller": null,
+   "stash": null,
+   "node_names": [],
+   "disable_groups": [
+    5
+   ],
+   "enable_groups": []
+  },
+  {
+   "kind": "buy",
+   "description": "Comprar Sol Spiral Amethyst Ring para Ring 1",
+   "cost_exalted": 1.0,
+   "cost_gold": 11135,
+   "rationale": "Mayor puntaje (99.8): corrige ['Str 74 < requisito 75'], DPS -2.6%, EHP +2.2%",
+   "guide_quote": "",
+   "slot": "Ring 1",
+   "listing_id": "6f1bc386d1f403b370eb2c87e4c6e66bf688bb8333e0b7e50f0cc5f32308538c",
+   "add_nodes": [],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites?q=%7B%22query%22%3A%7B%22status%22%3A%7B%22option%22%3A%22securable%22%7D%2C%22stats%22%3A%5B%7B%22type%22%3A%22and%22%2C%22filters%22%3A%5B%7B%22id%22%3A%22pseudo.pseudo_total_strength%22%2C%22value%22%3A%7B%22min%22%3A1%7D%7D%2C%7B%22id%22%3A%22pseudo.pseudo_total_lightning_resistance%22%2C%22value%22%3A%7B%22min%22%3A25%7D%7D%2C%7B%22id%22%3A%22pseudo.pseudo_total_dexterity%22%2C%22value%22%3A%7B%22min%22%3A13%7D%7D%5D%7D%5D%2C%22filters%22%3A%7B%22type_filters%22%3A%7B%22filters%22%3A%7B%22category%22%3A%7B%22option%22%3A%22accessory.ring%22%7D%7D%7D%2C%22trade_filters%22%3A%7B%22filters%22%3A%7B%22price%22%3A%7B%22max%22%3A150.0%2C%22option%22%3A%22exalted%22%7D%2C%22account%22%3A%7B%22input%22%3A%22%5Cuc0c1%5Cuc790%5Cuc18d%5Cuc138%5Cuc0c1%233941%22%7D%7D%7D%2C%22req_filters%22%3A%7B%22filters%22%3A%7B%22lvl%22%3A%7B%22max%22%3A81%7D%7D%7D%7D%7D%2C%22sort%22%3A%7B%22price%22%3A%22asc%22%7D%7D",
+   "seller": "상자속세상#3941",
+   "stash": "18 (10, 10)",
+   "node_names": [],
+   "disable_groups": [],
+   "enable_groups": []
+  }
+ ]
+}

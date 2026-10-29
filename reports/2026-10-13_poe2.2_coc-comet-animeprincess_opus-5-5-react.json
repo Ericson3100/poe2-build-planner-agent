@@ -1,0 +1,217 @@
+{
+ "metrics": {
+  "build": "poe2.2",
+  "level": 81,
+  "guide": "coc-comet-animeprincess",
+  "variant": "basic",
+  "mode": "react",
+  "model": "claude-opus-5-5",
+  "build_dps_pct": 6.5,
+  "ehp_pct": 4.1,
+  "es_pct": 3.6,
+  "problems_before": [
+   "Str 74 < requisito 75",
+   "Spirit sobre-reservado (-26)"
+  ],
+  "problems_fixed": [
+   "Spirit sobre-reservado (-26)",
+   "Str 74 < requisito 75"
+  ],
+  "problems_left": [],
+  "valid": true,
+  "solved": true,
+  "steps": 8,
+  "spent_exalted": 326.1,
+  "spent_gold": 46990,
+  "budget_exalted": 2882.8,
+  "seconds": 938,
+  "llm_requests": 32,
+  "input_tokens": 1369310,
+  "output_tokens": 17483,
+  "cost_usd": 1.09,
+  "trade_searches": 14,
+  "engine_evals": 269,
+  "report": "2026-10-13_poe2.2_coc-comet-animeprincess_opus-5-5-react.md"
+ },
+ "plan": [
+  {
+   "kind": "gem",
+   "description": "Desactivar Convalescence (grupo 9) para liberar 30 de Spirit",
+   "cost_exalted": 0.0,
+   "cost_gold": 0.0,
+   "rationale": "Spirit sobre-reservado (-26). Apagar Convalescence lo deja en +4 sin cambiar el DPS ni el crit de Spark (67.2%), Orb of Storms (74.7%) ni Comet (97.1%). Es una utilidad manual de recarga de ES, prescindible; Cast on Critical/Comet (59% del DPS), Siphon Elements (infusiones para Comet) y Mana Remnants (maná) son núcleo. Comprar spirit en bastón/amuleto medido cuesta mucho DPS (bastón guía -24.3%, Chimeric Pile -41%, Damnation Pile -51%, amuleto guía -8.6%).",
+   "guide_quote": "You want 181 total spirit",
+   "slot": null,
+   "listing_id": null,
+   "add_nodes": [],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": null,
+   "seller": null,
+   "stash": null,
+   "node_names": [],
+   "disable_groups": [
+    9
+   ],
+   "enable_groups": []
+  },
+  {
+   "kind": "buy",
+   "description": "Comprar cinturón Anarchy Clasp Wide Belt (32 Fuerza, 41% fuego, 32% rayo, 103 maná, 3 charms)",
+   "cost_exalted": 25.0,
+   "cost_gold": 28428.0,
+   "rationale": "Aporta +32% de resistencia al rayo que el Anarchy Leash no tiene (+25.8 TotalEHP, +34 maná medido solo). Así el Ring 1 puede pasar a ser un anillo de daño/atributos sin bajar la resistencia al rayo del suelo de 70%. Por sí solo pierde 1 de Fuerza; el anillo del paso siguiente lo compensa.",
+   "guide_quote": "",
+   "slot": "Belt",
+   "listing_id": "b28edae59d1a2811aa2cd83cbb64f6152e176801cf4ea85ce3cd507c5d9ca66d",
+   "add_nodes": [],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites?q=%7B%22query%22%3A%7B%22status%22%3A%7B%22option%22%3A%22securable%22%7D%2C%22stats%22%3A%5B%7B%22type%22%3A%22and%22%2C%22filters%22%3A%5B%7B%22id%22%3A%22explicit.stat_4080418644%22%2C%22value%22%3A%7B%22min%22%3A30.0%7D%7D%2C%7B%22id%22%3A%22explicit.stat_3372524247%22%2C%22value%22%3A%7B%22min%22%3A25.0%7D%7D%2C%7B%22id%22%3A%22explicit.stat_1671376347%22%2C%22value%22%3A%7B%22min%22%3A20.0%7D%7D%5D%7D%5D%2C%22filters%22%3A%7B%22type_filters%22%3A%7B%22filters%22%3A%7B%22category%22%3A%7B%22option%22%3A%22accessory.belt%22%7D%7D%7D%2C%22trade_filters%22%3A%7B%22filters%22%3A%7B%22price%22%3A%7B%22max%22%3A300.0%2C%22option%22%3A%22exalted%22%7D%2C%22account%22%3A%7B%22input%22%3A%22OssieOsbert%235960%22%7D%7D%7D%2C%22req_filters%22%3A%7B%22filters%22%3A%7B%22lvl%22%3A%7B%22max%22%3A81%7D%7D%7D%7D%7D%2C%22sort%22%3A%7B%22price%22%3A%22asc%22%7D%7D",
+   "seller": "OssieOsbert#5960",
+   "stash": "<|:o) (2, 6)",
+   "node_names": [],
+   "disable_groups": [],
+   "enable_groups": []
+  },
+  {
+   "kind": "buy",
+   "description": "Comprar anillo Rift Coil Pearl Ring (26% velocidad de lanzamiento, 18 Fuerza, 26 Destreza, 79 maná) para Ring 1",
+   "cost_exalted": 1.0,
+   "cost_gold": 10006.0,
+   "rationale": "Medido solo: +1735 BuildDPS (+1.7%), Fuerza 74→92 (corrige el requisito de 75), Destreza 69 (cumple 56). La resistencia al rayo bajaría a 50% sola, pero el cinturón del paso anterior la compensa. Mejor que Carrion Eye (+0.3%) y Plague Coil (+0.7%).",
+   "guide_quote": "",
+   "slot": "Ring 1",
+   "listing_id": "d562259fa7d65f4d0d8f75bfab2364eab504a02aeef04d074f6894303d05740a",
+   "add_nodes": [],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites?q=%7B%22query%22%3A%7B%22status%22%3A%7B%22option%22%3A%22securable%22%7D%2C%22stats%22%3A%5B%7B%22type%22%3A%22and%22%2C%22filters%22%3A%5B%7B%22id%22%3A%22explicit.stat_2891184298%22%2C%22value%22%3A%7B%22min%22%3A18.0%7D%7D%2C%7B%22id%22%3A%22explicit.stat_4080418644%22%2C%22value%22%3A%7B%22min%22%3A10.0%7D%7D%2C%7B%22id%22%3A%22explicit.stat_3261801346%22%2C%22value%22%3A%7B%22min%22%3A15.0%7D%7D%5D%7D%5D%2C%22filters%22%3A%7B%22type_filters%22%3A%7B%22filters%22%3A%7B%22category%22%3A%7B%22option%22%3A%22accessory.ring%22%7D%7D%7D%2C%22trade_filters%22%3A%7B%22filters%22%3A%7B%22price%22%3A%7B%22max%22%3A500.0%2C%22option%22%3A%22exalted%22%7D%2C%22account%22%3A%7B%22input%22%3A%22Dixzell%237735%22%7D%7D%7D%2C%22req_filters%22%3A%7B%22filters%22%3A%7B%22lvl%22%3A%7B%22max%22%3A81%7D%7D%7D%7D%7D%2C%22sort%22%3A%7B%22price%22%3A%22asc%22%7D%7D",
+   "seller": "Dixzell#7735",
+   "stash": "4 (0, 0)",
+   "node_names": [],
+   "disable_groups": [],
+   "enable_groups": []
+  },
+  {
+   "kind": "respec",
+   "description": "Quitar Lingering Horror y Branching Bolts, asignar Turn the Clock Forward",
+   "cost_exalted": 0.0,
+   "cost_gold": 0.0,
+   "rationale": "+3367 BuildDPS (+3.2%) y sobra 1 punto (2 devueltos, 1 usado). Lingering Horror da daño de caos (inútil) y Branching Bolts no mide nada. Coste en oro: solo 2 puntos de respec.",
+   "guide_quote": "",
+   "slot": null,
+   "listing_id": null,
+   "add_nodes": [
+    2335
+   ],
+   "remove_nodes": [
+    56063,
+    37806
+   ],
+   "deltas": {},
+   "link": null,
+   "seller": null,
+   "stash": null,
+   "node_names": [
+    "Turn the Clock Forward"
+   ],
+   "disable_groups": [],
+   "enable_groups": []
+  },
+  {
+   "kind": "buy",
+   "description": "Comprar joya Glyph Breath Sapphire (13% daño de hechizo, 10% ES máx., 14% crítico) para sustituir Fulgent Glisten en Jewel 21984",
+   "cost_exalted": 300.1,
+   "cost_gold": 8556.0,
+   "rationale": "Fulgent Glisten es la joya más floja (mods de minions, sin ES). Glyph Breath: +1552 BuildDPS (+1.5%), +86 ES, +172 TotalEHP; crit de Comet 97.1%→100%, Spark 67.2→69.3%, Orb 74.7→77%. Mejor en daño que Empyrean Stone (+0.8%, 193 ex), que el jugador prefiere al buscar daño.",
+   "guide_quote": "I would say % max energy shield is a mandatory mod though.",
+   "slot": "Jewel 21984",
+   "listing_id": "39b81aeb5daede6aea19284bdd3d19416d434fbcf4435e3964c2c256aa14b9ee",
+   "add_nodes": [],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": "https://www.pathofexile.com/trade2/search/poe2/Forbidden%20Rites?q=%7B%22query%22%3A%7B%22status%22%3A%7B%22option%22%3A%22securable%22%7D%2C%22stats%22%3A%5B%7B%22type%22%3A%22and%22%2C%22filters%22%3A%5B%7B%22id%22%3A%22explicit.stat_2482852589%22%2C%22value%22%3A%7B%22min%22%3A10.0%7D%7D%2C%7B%22id%22%3A%22explicit.stat_587431675%22%2C%22value%22%3A%7B%22min%22%3A10.0%7D%7D%2C%7B%22id%22%3A%22explicit.stat_2974417149%22%2C%22value%22%3A%7B%22min%22%3A10.0%7D%7D%5D%7D%5D%2C%22filters%22%3A%7B%22type_filters%22%3A%7B%22filters%22%3A%7B%22category%22%3A%7B%22option%22%3A%22jewel%22%7D%7D%7D%2C%22trade_filters%22%3A%7B%22filters%22%3A%7B%22price%22%3A%7B%22max%22%3A300.0%2C%22option%22%3A%22exalted%22%7D%2C%22account%22%3A%7B%22input%22%3A%22toymachine2984%233174%22%7D%7D%7D%2C%22req_filters%22%3A%7B%22filters%22%3A%7B%22lvl%22%3A%7B%22max%22%3A81%7D%7D%7D%7D%7D%2C%22sort%22%3A%7B%22price%22%3A%22asc%22%7D%7D",
+   "seller": "toymachine2984#3174",
+   "stash": "16 (1, 1)",
+   "node_names": [],
+   "disable_groups": [],
+   "enable_groups": []
+  },
+  {
+   "kind": "level-up",
+   "description": "Siguientes puntos: Melding (2 puntos, incluye el nodo de ES del camino)",
+   "cost_exalted": 0.0,
+   "cost_gold": 0.0,
+   "rationale": "Mejor valor por punto de la guía: +476 ES, +564 TotalEHP (4.28%/punto), -88 maná. Usa el punto sobrante del respec más el siguiente nivel. Prepara la transición a CI.",
+   "guide_quote": "",
+   "slot": null,
+   "listing_id": null,
+   "add_nodes": [
+    62436,
+    3215
+   ],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": null,
+   "seller": null,
+   "stash": null,
+   "node_names": [
+    "Energy Shield",
+    "Melding"
+   ],
+   "disable_groups": [],
+   "enable_groups": []
+  },
+  {
+   "kind": "level-up",
+   "description": "Después: Dampening Shield (2 puntos)",
+   "cost_exalted": 0.0,
+   "cost_gold": 0.0,
+   "rationale": "+242 ES, +330 TotalEHP (2.51%/punto) y umbral de aturdimiento/ailments basado en ES.",
+   "guide_quote": "",
+   "slot": null,
+   "listing_id": null,
+   "add_nodes": [
+    14666,
+    9642
+   ],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": null,
+   "seller": null,
+   "stash": null,
+   "node_names": [
+    "Stun and Ailment Threshold from Energy Shield",
+    "Dampening Shield"
+   ],
+   "disable_groups": [],
+   "enable_groups": []
+  },
+  {
+   "kind": "ascendancy",
+   "description": "Próxima prueba de ascendencia: Remnant Range y luego Storm's Recollection",
+   "cost_exalted": 0.0,
+   "cost_gold": 0.0,
+   "rationale": "PoB no mide cambio (efecto basado en eventos), pero los Remnants reaparecen una vez y se recogen desde más lejos: más infusiones para Comet y más Mana Remnants, que es como la guía genera daño y maná.",
+   "guide_quote": "",
+   "slot": null,
+   "listing_id": null,
+   "add_nodes": [
+    12488,
+    49189
+   ],
+   "remove_nodes": [],
+   "deltas": {},
+   "link": null,
+   "seller": null,
+   "stash": null,
+   "node_names": [
+    "Remnant Range",
+    "Storm's Recollection"
+   ],
+   "disable_groups": [],
+   "enable_groups": []
+  }
+ ]
+}
