@@ -1,0 +1,96 @@
+{
+ "summary": "Stormweaver de nivel 79 que construye un hechicero de hechizos elementales (hielo y rayo) basado en Escudo de Energía. Ya tiene mucho daño elemental, probabilidad de crítico, congelación y shock, además de Elemental Equilibrium y Constant Gale (Arcane Surge). La guía apunta a Chaos Inoculation, que deja la vida en 1 y da inmunidad al caos, así que el Escudo de Energía pasa a ser la única reserva defensiva. Faltan nodos de ES (Melding, Dampening Shield, Illuminated Crown, Hallowed, Rapid Recharge) y de daño (All Natural, Empowering Infusions, Turn the Clock Forward). En el endgame se añaden Brain Freeze, Stormcharged e Invigorating Archon para penetrar resistencias y mejorar resistencias y velocidad de movimiento.",
+ "ignore_stats": [
+  "Life",
+  "ChaosResist"
+ ],
+ "prioritize_stats": [
+  "EnergyShield",
+  "CombinedDPS",
+  "Int",
+  "ManaRegen",
+  "FireResist",
+  "ColdResist",
+  "LightningResist",
+  "CritChance",
+  "TotalEHP"
+ ],
+ "transitions": [
+  {
+   "node": "Melding",
+   "when": "Al empezar a reforzar el Escudo de Energía, antes de tomar Chaos Inoculation",
+   "requires": "Puntos libres y maná suficiente para tolerar 10% menos de maná máximo",
+   "effect": "+40% de Escudo de Energía máximo, a costa de algo de maná"
+  },
+  {
+   "node": "Dampening Shield",
+   "when": "Junto con el resto de nodos de ES, antes de Chaos Inoculation",
+   "requires": "Ruta pasiva hasta el nodo",
+   "effect": "+28% de ES máximo y umbrales extra de ailment y stun basados en el ES"
+  },
+  {
+   "node": "Chaos Inoculation",
+   "when": "Cuando el Escudo de Energía supere claramente a la vida y ya tengas los nodos de ES principales",
+   "requires": "Escudo de Energía alto (Pure Energy, Insightfulness, Melding, Dampening Shield) y equipo con ES",
+   "effect": "Vida máxima 1 e inmunidad al daño de caos y al sangrado; el ES pasa a ser la defensa central"
+  },
+  {
+   "node": "All Natural",
+   "when": "Tras asegurar la base de ES, para cubrir resistencias y daño",
+   "requires": "Ruta pasiva disponible",
+   "effect": "+5% a todas las resistencias elementales y 30% más de daño elemental"
+  },
+  {
+   "node": "Brain Freeze",
+   "when": "En la fase de endgame, una vez completados los nodos faltantes de la etapa actual",
+   "requires": "Congelación fiable (Heavy Frost, Thin Ice, Inescapable Cold)",
+   "effect": "Más daño de hielo y -8% de resistencia al frío en enemigos congelados"
+  },
+  {
+   "node": "Stormcharged",
+   "when": "En el endgame",
+   "requires": "Nodos de daño elemental y velocidad de lanzamiento ya tomados",
+   "effect": "Penetra 8% de resistencias elementales y +5% de velocidad de ataque y lanzamiento con habilidades elementales"
+  },
+  {
+   "node": "Invigorating Archon",
+   "when": "En el endgame, cuando uses buffs de Archon",
+   "requires": "Buffs de Archon activos",
+   "effect": "+20% a todas las resistencias elementales y 10% más de velocidad de movimiento durante los Archon"
+  }
+ ],
+ "notes": [
+  {
+   "text": "Con Chaos Inoculation la vida y la resistencia al caos dejan de importar; Lingering Horror (daño de caos) pierde valor y la guía lo omite.",
+   "node": "Chaos Inoculation"
+  },
+  {
+   "text": "Elemental Equilibrium rota las infusiones de Remnants (rayo en vez de fuego, hielo en vez de rayo, fuego en vez de hielo), y se combina con Empowering Infusions y Principal Infusion.",
+   "node": "Elemental Equilibrium"
+  },
+  {
+   "text": "Echoing Flames no aparece en la guía; el build no se centra en ignición, así que es candidato a reasignar.",
+   "node": "Echoing Flames"
+  },
+  {
+   "text": "Potent Incantation reduce la velocidad de lanzamiento un 5% y no está en la guía; es candidato a reasignar si la velocidad de lanzamiento pesa más.",
+   "node": "Potent Incantation"
+  },
+  {
+   "text": "Strike Twice reduce un 25% la magnitud del shock; el build apuesta más por el hielo y la congelación.",
+   "node": "Strike Twice"
+  },
+  {
+   "text": "Arcane Remnants y Evocational Practitioner están asignados pero no figuran en la guía; son opciones de reasignación.",
+   "node": "Evocational Practitioner"
+  },
+  {
+   "text": "Hallowed y Dampening Shield dan umbrales de ailment y stun basados en ES, útiles cuando el ES sea la única defensa.",
+   "node": "Hallowed"
+  },
+  {
+   "text": "Constant Gale otorga Arcane Surge de forma permanente, apoyando el maná y la velocidad de lanzamiento.",
+   "node": "Constant Gale"
+  }
+ ]
+}

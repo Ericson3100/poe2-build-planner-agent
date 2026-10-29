@@ -1,0 +1,107 @@
+{
+ "summary": "Stormweaver de Sorceress que combina daño en frío y rayo con crítico: congela a los enemigos (Heavy Frost, Thin Ice, Glaciation) para ignorar resistencias y aplica doble shock (Strike Twice, Shaper of Storms), apoyado por Elemental Equilibrium y los Remnants/infusiones elementales. La guía ya en la etapa básica pide Chaos Inoculation: la vida pasa a ser 1 y toda la defensa se basa en Energy Shield, por lo que faltan muchos nodos de ES (Melding, Dampening Shield, Illuminated Crown, Rapid Recharge, Hallowed). También faltan nodos de infusiones (Empowering Infusions, Principal Infusion, Storm's Recollection) que convierten los Remnants en una fuente fuerte de daño. Hay varios nodos asignados que la guía no usa (Echoing Thunder/Frost/Flames, Branching Bolts, Lingering Horror, etc.) y que conviene reasignar a esos nodos de ES e infusión. En endgame se añade penetración y reducción de resistencia en frío (Brain Freeze, Stormcharged) y Invigorating Archon para resistencias y velocidad.",
+ "ignore_stats": [
+  "Life",
+  "ChaosResist",
+  "ChaosMaximumHitTaken"
+ ],
+ "prioritize_stats": [
+  "EnergyShield",
+  "CombinedDPS",
+  "Int",
+  "CritChance",
+  "ManaRegen",
+  "FireResist",
+  "ColdResist",
+  "LightningResist",
+  "TotalEHP"
+ ],
+ "transitions": [
+  {
+   "node": "Melding",
+   "when": "Antes de Chaos Inoculation, para reunir suficiente Energy Shield",
+   "requires": "Equipo con Energy Shield alto (casco, cuerpo, escudo/foco)",
+   "effect": "+40% Energy Shield máximo a costa de un 10% de maná"
+  },
+  {
+   "node": "Dampening Shield",
+   "when": "Junto con Melding, antes del cambio a CI",
+   "requires": "",
+   "effect": "Más ES y umbral de aturdimiento y de ailments basado en ES, vital al no tener vida"
+  },
+  {
+   "node": "Chaos Inoculation",
+   "when": "En cuanto el Energy Shield supere claramente tu vida actual (la guía lo usa ya en la etapa básica)",
+   "requires": "Melding, Dampening Shield, Illuminated Crown y equipo de ES; resistencias elementales cubiertas",
+   "effect": "La vida queda en 1 e inmunidad al caos y al sangrado; la vida y la resistencia al caos dejan de importar, todo depende del Energy Shield y su recarga"
+  },
+  {
+   "node": "Hallowed",
+   "when": "Justo después de Chaos Inoculation",
+   "requires": "Chaos Inoculation",
+   "effect": "Umbral de aturdimiento/ailments igual al 20% del ES, compensando la falta de vida"
+  },
+  {
+   "node": "Empowering Infusions",
+   "when": "Tras asegurar las defensas",
+   "requires": "Elemental Equilibrium y recogida de Remnants",
+   "effect": "+35% de daño de hechizo tras consumir una infusión elemental"
+  },
+  {
+   "node": "Stormcharged",
+   "when": "Fase endgame",
+   "requires": "",
+   "effect": "Penetración del 8% de resistencias elementales y velocidad de lanzamiento"
+  },
+  {
+   "node": "Brain Freeze",
+   "when": "Fase endgame",
+   "requires": "Congelación fiable (Inescapable Cold, Heavy Frost)",
+   "effect": "Más daño de frío y -8% de resistencia al frío en enemigos congelados"
+  },
+  {
+   "node": "Invigorating Archon",
+   "when": "Fase endgame",
+   "requires": "Uso de buffs de Archon",
+   "effect": "+20% a todas las resistencias elementales y 10% de velocidad de movimiento durante Archon"
+  }
+ ],
+ "notes": [
+  {
+   "text": "Echoing Thunder no está en la guía; sus puntos deben pasar a nodos de ES o infusión.",
+   "node": "Echoing Thunder"
+  },
+  {
+   "text": "Echoing Frost no está en la guía; candidato a reasignar.",
+   "node": "Echoing Frost"
+  },
+  {
+   "text": "Echoing Flames depende de ignite, que el build no busca; reasígnalo.",
+   "node": "Echoing Flames"
+  },
+  {
+   "text": "Lingering Horror da daño de caos, inútil para este build elemental.",
+   "node": "Lingering Horror"
+  },
+  {
+   "text": "Branching Bolts y Lightning Quick no forman parte de la guía; liberan puntos para Melding/Hallowed.",
+   "node": "Branching Bolts"
+  },
+  {
+   "text": "Elemental Equilibrium rota el tipo de Remnant de infusión; sinergiza con Principal Infusion y Storm's Recollection para más infusiones.",
+   "node": "Elemental Equilibrium"
+  },
+  {
+   "text": "Heavy Frost ignora resistencias no negativas de enemigos congelados: congelar es el núcleo del daño.",
+   "node": "Heavy Frost"
+  },
+  {
+   "text": "Strike Twice permite dos shocks simultáneos con menor magnitud; combinado con Shaper of Storms mantiene shock constante.",
+   "node": "Strike Twice"
+  },
+  {
+   "text": "Overexposure y Stripped Defences potencian la exposición para reducir resistencias.",
+   "node": "Overexposure"
+  }
+ ]
+}

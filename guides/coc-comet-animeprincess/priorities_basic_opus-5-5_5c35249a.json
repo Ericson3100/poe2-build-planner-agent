@@ -1,0 +1,207 @@
+{
+ "build_name": "[0.5] COC COMET - Stormweaver @animeprincess",
+ "archetype": "Spark + Orb of Storms crit clear with Cast on Critical Comet, Elemental Equilibrium infusions, Stormweaver Sorceress (CI energy shield)",
+ "stages": [
+  {
+   "name": "Basic Setup",
+   "min_level": 1,
+   "level_quote": "",
+   "max_level": null,
+   "pob_variant": "basic",
+   "budget_hint": null,
+   "summary": "Starting CoC Comet setup that cuts corners to be cheaper. Spark, Orb of Storms and Cast on Critical Comet, with Sigil of Power and Elemental Weakness on weapon swap."
+  },
+  {
+   "name": "Endgame Setup",
+   "min_level": 1,
+   "level_quote": "",
+   "max_level": null,
+   "pob_variant": null,
+   "budget_hint": null,
+   "summary": "Stronger and more expensive version of the CoC Comet setup."
+  },
+  {
+   "name": "Endgame Mageblood",
+   "min_level": 1,
+   "level_quote": "",
+   "max_level": null,
+   "pob_variant": null,
+   "budget_hint": null,
+   "summary": "Endgame variant built around Mageblood."
+  },
+  {
+   "name": "Endgame Extreme Budget",
+   "min_level": 1,
+   "level_quote": "",
+   "max_level": null,
+   "pob_variant": null,
+   "budget_hint": "Extreme Budget Setup",
+   "summary": "Perfected, extremely high-budget CoC Comet setup."
+  },
+  {
+   "name": "Double COC",
+   "min_level": 1,
+   "level_quote": "",
+   "max_level": null,
+   "pob_variant": null,
+   "budget_hint": null,
+   "summary": "Variant using two Cast on Critical setups."
+  }
+ ],
+ "thresholds": [
+  {
+   "stat": "Spirit",
+   "target": 181.0,
+   "priority": 1,
+   "stage": null,
+   "quote": "You want 181 total spirit"
+  }
+ ],
+ "slot_priorities": [
+  {
+   "slot": "Weapon 1",
+   "desired_stats": [
+    "+ to Level of all Spell Skills",
+    "increased Cast Speed",
+    "+ to Spirit (Amanamu prefix craft)",
+    "Gain % of Damage as Extra Fire Damage",
+    "Gain % of Damage as Extra Cold Damage"
+   ],
+   "key_unique": null,
+   "priority": 1,
+   "quote": "35-50 spirit - Staff amanamu prefix craft"
+  },
+  {
+   "slot": "Weapon 1 Swap",
+   "desired_stats": [
+    "Sigil of Power",
+    "+ to maximum Mana",
+    "increased Critical Hit Chance for Spells"
+   ],
+   "key_unique": null,
+   "priority": 3,
+   "quote": "Sigil of Power\nis found on a\nChiming Staff\n. You can make use of weapon swaps in order to get this massive DPS buff while still using a different staff for your damage."
+  },
+  {
+   "slot": "Amulet",
+   "desired_stats": [
+    "+ to Spirit",
+    "+ to Level of all Spell Skills",
+    "+ to maximum Life",
+    "increased Spell Damage",
+    "increased Mana Regeneration Rate",
+    "Anoint Conservative Casting"
+   ],
+   "key_unique": null,
+   "priority": 2,
+   "quote": "30-50 spirit - Amulet prefix"
+  },
+  {
+   "slot": "Body Armour",
+   "desired_stats": [
+    "+ to Spirit",
+    "+ to maximum Energy Shield",
+    "increased Energy Shield",
+    "Resistances",
+    "+ to Intelligence"
+   ],
+   "key_unique": null,
+   "priority": 2,
+   "quote": "30-61 spirit - Body armor prefix"
+  },
+  {
+   "slot": "Helmet",
+   "desired_stats": [
+    "Spirit corruption",
+    "increased Critical Hit Chance",
+    "increased Energy Shield",
+    "+ to maximum Energy Shield"
+   ],
+   "key_unique": null,
+   "priority": 3,
+   "quote": "20-30 spirit - Helmet corruption"
+  },
+  {
+   "slot": "Gloves",
+   "desired_stats": [],
+   "key_unique": "Maligaro's Virtuosity",
+   "priority": 3,
+   "quote": "Gloves1 (levels 0-100): Maligaro's Virtuosity"
+  },
+  {
+   "slot": "Ring 1",
+   "desired_stats": [],
+   "key_unique": "Call of the Brotherhood",
+   "priority": 3,
+   "quote": "Ring1 (levels 0-100): Call of the Brotherhood"
+  },
+  {
+   "slot": "Jewel",
+   "desired_stats": [
+    "% maximum Energy Shield"
+   ],
+   "key_unique": null,
+   "priority": 4,
+   "quote": "I would say % max energy shield is a mandatory mod though."
+  }
+ ],
+ "general_advice": [
+  {
+   "text": "League start as Spark Stormweaver, farm core pieces, then swap into CoC Comet once gear and Spirit are ready.",
+   "priority": 1,
+   "quote": "You can league start as Spark, farm your core pieces, then swap into CoC Comet once your gear and Spirit setup are ready."
+  },
+  {
+   "text": "Reach 181 Spirit for Cast on Critical plus Mana Remnants, Siphon Elements and Convalescence.",
+   "priority": 1,
+   "quote": "You want 181 total spirit"
+  },
+  {
+   "text": "Solve mana with Efficiency II on all gems, a Conservative Casting anoint, Mana Remnants, and mana regen gear.",
+   "priority": 2,
+   "quote": "Efficiency II\non all skill gems, anoint\nConservative Casting\non amulet,"
+  },
+  {
+   "text": "Use Zenith II on damage spells once mana cost allows it.",
+   "priority": 3,
+   "quote": "Zenith II\nwill also help reduce mana cost and you should put this on all your damage spells if your mana cost gets solved with it."
+  },
+  {
+   "text": "Use Mana Tempest proactively before dangerous encounters.",
+   "priority": 2,
+   "quote": "Mana Tempest should be used proactively. Do not wait until the situation is already bad."
+  },
+  {
+   "text": "On pinnacle bosses, preload Sigil of Power and Elemental Weakness before the boss becomes vulnerable.",
+   "priority": 2,
+   "quote": "For pinnacle bosses, your goal is to preload as much damage as possible before the boss becomes vulnerable."
+  },
+  {
+   "text": "Anoint Climate Change if mana is not an issue.",
+   "priority": 4,
+   "quote": "If you don't need mana"
+  }
+ ],
+ "warnings": [
+  {
+   "text": "Don't build around many weak Comets on trash; let Spark/Orb clear and keep Comet strong for tough targets.",
+   "priority": 1,
+   "quote": "Do not build around making hundreds of weak Comets fall on every small monster."
+  },
+  {
+   "text": "Not a face-tank build; defense comes from freeze, range and killing enemies first.",
+   "priority": 2,
+   "quote": "This is not a face-tank build."
+  },
+  {
+   "text": "Don't copy the jewels exactly.",
+   "priority": 4,
+   "quote": "Do not try and copy my jewels exactly, because I was just going off a list of good mods and getting something with 4 of them."
+  },
+  {
+   "text": "Visual clarity can be poor in boss fights.",
+   "priority": 5,
+   "quote": "Visual clarity can be difficult in boss fights"
+  }
+ ]
+}
