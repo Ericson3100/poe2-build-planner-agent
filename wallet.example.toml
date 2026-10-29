@@ -1,0 +1,25 @@
+# Copiar a wallet.toml y llenar con los valores actuales.
+# PoE2 no tiene API de stash ni de oro, así que el presupuesto sale de aquí.
+
+league = "Forbidden Rites"
+
+# Oro del inventario
+gold = 0
+
+[currency]
+"Exalted Orb" = 0
+"Divine Orb" = 0
+"Chaos Orb" = 0
+"Orb of Annulment" = 0
+"Vaal Orb" = 0
+"Regal Orb" = 0
+"Orb of Alchemy" = 0
+"Orb of Augmentation" = 0
+"Orb of Transmutation" = 0
+"Artificer's Orb" = 0
+"Gemcutter's Prism" = 0
+"Glassblower's Bauble" = 0
+
+[costs]
+# Oro por punto de pasivo devuelto. Con 0 el plan muestra puntos en vez de oro.
+respec_gold_per_point = 0

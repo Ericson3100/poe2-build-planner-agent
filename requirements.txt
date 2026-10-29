@@ -1,0 +1,11 @@
+# Core: planner package, agent, RAG and the notebook
+anthropic>=1.13,<2  # tested with 1.13
+langgraph>=1.2
+pydantic>=2.7
+numpy>=2.0
+sentence-transformers>=6.0
+beautifulsoup4>=4.12
+truststore>=0.10
+matplotlib>=3.8
+nbformat>=5.10
+ipykernel>=6.29

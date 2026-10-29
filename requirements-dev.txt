@@ -1,0 +1,7 @@
+# RAGAS evaluation (tests/rag_ragas.py) and the offline test suite
+-r requirements.txt
+ragas==0.4.3
+langchain-anthropic>=1.7
+langchain-community>=0.4
+langchain-core>=1.6
+pytest>=8

@@ -1,0 +1,22 @@
+# secrets and personal data
+.env
+wallet.toml
+
+# Path of Building checkout (cloned by the notebook, ~750 MB)
+vendor/
+
+# HTTP cache of trade / poe.ninja / wiki responses
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# archives and saved third-party pages
+*.zip
+*_files/
+*.html
